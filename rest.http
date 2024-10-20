@@ -1,4 +1,4 @@
-@url= http://localhost:8000
+@url= https://booking-api-alpha.vercel.app/?vercelToolbarCode=FQHdw42d6DuUhmv
 
 POST {{url}}/api/bookings
 Content-type:application/json
