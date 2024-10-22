@@ -2,7 +2,7 @@ const express = require('express');
 const router = express.Router();
 const Booking = require('../models/BookingSchema');
 
-// Create a new booking
+
 router.post('/', async (req, res) => {
   try {
     const newBooking = new Booking(req.body); 

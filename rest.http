@@ -1,4 +1,4 @@
-@url= http://localhost:8000
+@url= https://booking-api-1-edu7.onrender.com
 
 POST {{url}}/api/bookings
 Content-type:application/json
@@ -9,7 +9,7 @@ Content-type:application/json
   "phone_number": "1234567890",
   "check_in_date": "2024-10-20",
   "checkout_date": "2024-10-25",
-  "duration": 5
+ 
 }
 
 
